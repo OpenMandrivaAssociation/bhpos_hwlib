@@ -22,6 +22,7 @@ BuildRequires:	libxml++-devel >= 2.6
 BuildRequires:	pkgconfig
 BuildRequires:	MySQL-devel
 BuildRequires:	gettext-devel
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 BananaPOS hwlib libraries, are required by the server (mysql version).
